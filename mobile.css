@@ -95,6 +95,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Arciform';
+  src: url(assets/arciform.otf);
+}
+
 /* fonts and colors */
 
 :root {
