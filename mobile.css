@@ -83,6 +83,7 @@ ul {
 body {
   margin-top: 90px;
   max-width: 100%;
+  overflow: hidden;
   /* contradiction w/ min-width of desktop */
 }
 
