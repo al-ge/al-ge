@@ -95,7 +95,7 @@ html {
 
 @font-face {
   font-family: 'Arciform';
-  src: url(".../unwind/assets/Arciform.woff") format("woff"), url(".../unwind/assets/Arciform.otf") format("opentype");
+  src: url(".../al-ge/assets/Arciform.woff") format("woff"), url(".../al-ge/assets/Arciform.otf") format("opentype");
 }
 
 /* fonts and colors */
