@@ -490,6 +490,7 @@ footer .icons_bottom {
 
 #subscribe {
   margin-bottom: 80px;
+  padding-top: 30px;
 }
 
 #subscribe p {
@@ -497,12 +498,7 @@ footer .icons_bottom {
   line-height: 24pt;
 }
 
-form#subscribe {
-  padding-top: 30px;
-  width: 150px;
-}
-
-#subscribe input[type=text] {
+#subscribe input[type="email"] {
   width: 250px;
   height: 20px;
   color: var(--accent-blue);
@@ -514,10 +510,10 @@ form#subscribe {
   margin-right: 5px;
   border-radius: 5px;
   font-size: 9pt;
-
+  vertical-align: top;
 }
 
-#subscribe button {
+#subscribe input[type="submit"] {
   width: 100px;
   height: 30px;
   background-color: var(--baby-blue);
@@ -527,7 +523,16 @@ form#subscribe {
   border-style: none;
   vertical-align: top;
   font-size: 9pt;
-  margin-top: 10px;
+}
+
+#subscribe #mc-embedded-subscribe {
+  margin-top: 0px;
+  padding-top: 8px;
+  height: 32px;
+}
+
+.clear, .mc-field-group {
+  display: inline-block;
 }
 
 .image_extend_to_right {
