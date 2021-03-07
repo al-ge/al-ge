@@ -699,3 +699,15 @@ footer .icons_bottom {
 #special_image_gradient {
   margin-top: 60px;
 }
+
+/* videos */
+#videos {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+  }
+
+#videos iframe {
+  padding-top: 10px;
+}

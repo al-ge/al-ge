@@ -1252,3 +1252,15 @@ header img {
   position: absolute;
   right: 0px;
 }
+
+/* videos */
+#videos {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+  }
+
+#videos iframe {
+  padding: 10px;
+}
